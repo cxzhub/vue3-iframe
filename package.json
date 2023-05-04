@@ -1,7 +1,23 @@
 {
   "name": "vue3-iframe",
-  "private": true,
+  "private": false,
   "version": "0.0.1",
+  "keywords":[
+    "vue iframe",
+    "iframe",
+    "vue",
+    "components",
+    "iframe components"
+  ],
+  "main":"dist/vue3-iframe.umd.js",
+  "files":[
+    "dist/*"
+  ],
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/cxzhub/vue3-iframe"
+  },
+  "license": "MIT",
   "scripts": {
     "build": "vue-tsc && vite build",
     "docs:dev": "vitepress dev docs",
