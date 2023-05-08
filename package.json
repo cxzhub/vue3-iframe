@@ -1,7 +1,7 @@
 {
   "name": "vue3-iframe",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.5",
   "keywords": [
     "vue iframe",
     "iframe",
@@ -9,10 +9,17 @@
     "components",
     "iframe components"
   ],
+  "files": ["dist"],
   "main": "dist/vue3-iframe.umd.js",
-  "files": [
-    "dist/*"
-  ],
+  "module": "./dist/vue3-iframe.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/vue3-iframe.js",
+      "require": "./dist/vue3-iframe.umd.cjs"
+    }
+  },
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/cxzhub/vue3-iframe"
@@ -50,6 +57,7 @@
     "sass": "^1.62.1",
     "typescript": "^5.0.2",
     "vite": "^4.3.2",
+    "vite-plugin-dts": "^2.3.0",
     "vitepress": "1.0.0-alpha.75",
     "vue-tsc": "^1.4.2"
   },
