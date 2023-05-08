@@ -9,7 +9,9 @@
     "components",
     "iframe components"
   ],
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/vue3-iframe.umd.js",
   "module": "./dist/vue3-iframe.js",
   "exports": {
