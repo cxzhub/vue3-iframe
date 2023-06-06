@@ -10,5 +10,6 @@ module.exports = {
       md.use(containerPreview)
       md.use(componentPreview)
     }
-  }
+  },
+  base: '/vue3-iframe/'
 }

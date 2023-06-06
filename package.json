@@ -1,7 +1,7 @@
 {
   "name": "vue3-iframe",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "keywords": [
     "vue iframe",
     "iframe",
@@ -10,17 +10,9 @@
     "iframe components"
   ],
   "files": [
-    "dist"
+    "dist/*"
   ],
   "main": "dist/vue3-iframe.umd.js",
-  "module": "./dist/vue3-iframe.js",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/vue3-iframe.js",
-      "require": "./dist/vue3-iframe.umd.cjs"
-    }
-  },
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
