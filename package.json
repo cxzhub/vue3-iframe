@@ -1,7 +1,7 @@
 {
   "name": "vue3-iframe",
   "private": false,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "keywords": [
     "vue iframe",
     "iframe",
@@ -17,6 +17,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/cxzhub/vue3-iframe"
+  },
+  "homepage": "https://cxzhub.github.io/vue3-iframe/",
+  "bugs": {
+    "url": "https://github.com/cxzhub/vue3-iframe/issues"
   },
   "license": "MIT",
   "scripts": {
